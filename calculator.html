@@ -20,7 +20,7 @@ class Calculator {
     this.initEmailResultsButton();
     this.initFromURLParams();
     this.updateCalculations();
-    this.loadAndInitializeRangeSlider();
+    // this.loadAndInitializeRangeSlider();
   }
 
   // Method to construct the URL with query parameters
@@ -198,13 +198,13 @@ class Calculator {
     }
   }
 
-  loadAndInitializeRangeSlider() {
-    const script = document.createElement("script");
-    script.src =
-      "https://cdn.jsdelivr.net/npm/@finsweet/attributes-rangeslider@1/rangeslider.js";
-    script.onload = () => {};
-    document.body.appendChild(script);
-  }
+  // loadAndInitializeRangeSlider() {
+  //   const script = document.createElement("script");
+  //   script.src =
+  //     "https://cdn.jsdelivr.net/npm/@finsweet/attributes-rangeslider@1/rangeslider.js";
+  //   script.onload = () => {};
+  //   document.body.appendChild(script);
+  // }
 
   // Method to update the input fields with the values from the URL parameters
   updateInputFields() {
